@@ -15,7 +15,7 @@
 
 .planes__tarjetas {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -79,6 +79,7 @@
 }
 
 .tarjetas--start {
+    
 }
 
 .tarjetas--ultra {

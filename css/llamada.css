@@ -13,21 +13,36 @@
 }
 
 .llamada__titulo {
-    font-family: var(--montserrat);
-    font-size: 2rem;
+    font-family: Montserrat;
+    font-size: 52px;
+    max-width: auto;
     font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
     text-transform: uppercase;
-
     margin-bottom: 1.5rem;
 }
 
 .llamada__texto {
-    font-size: 1.25rem;
-    line-height: normal;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: auto;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    /*font-size: 1.25rem;
+    line-height: normal;*/
 
     margin: 0 auto 2.5rem;
 }
 
-.llamada__boton {
-    width: 100%;
+.llamada__boton_boton {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
 }

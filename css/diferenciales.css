@@ -30,13 +30,13 @@
 }
 
 .diferenciales__item-reloj {
-    background-image: url(../img/icono-reloj.png);
+    background-image: url(../img/icono-reloj.svg);
 }
 
 .diferenciales__item-dinero {
-    background-image: url(../img/icono-dinero.png);
+    background-image: url(../img/icono-dinero.svg);
 }
 
 .diferenciales__item-quimica {
-    background-image: url(../img/icono-quimica.png);
+    background-image: url(../img/icono-quimica.svg);
 }

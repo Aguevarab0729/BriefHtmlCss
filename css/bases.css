@@ -33,6 +33,75 @@ body {
     padding-left: 6%;
 }
 
+.container_all {
+    width: 95%;
+    max-width: auto;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, auto);
+}
+
+.container_all > div,
+.container_all .encabezado,
+.container_all .llamada_container,
+.container_all .destacados_container,
+.container_all .diferenciales_container,
+.container_all .sobre_nosotros_container,
+.container_all .planes_container,
+.container_all .contacto_container,
+.container_all .institucional_container,
+.container_all .footer_container {
+    background-color: #690F8E;
+}
+
+.container_all .encabezado {
+    background-color: chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 3;  /* si no sabes el numero de columnas y quieres que abarque todo se pone -1*/
+}
+
+.container_all .llamada_container {
+    background-color:#B72E2E;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container_all .destacados_container {
+    background-color: yellowgreen;
+    grid-column: span 3;
+}
+
+.container_all .diferenciales_container {
+    background-color: #4F4C4C;
+    grid-column: span 3;
+}
+
+.container_all .sobre_nosotros_container {
+    background-color: #B00024;
+    grid-column: span 3;
+}
+
+.container_all .planes_container {
+    background-color: green;
+    grid-column: span 3;
+}
+
+.container_all .contacto_container {
+    background-color: yellow;
+    grid-column: span 3;
+}
+
+.container_all .institucional_container {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.container_all .footer_container {
+    background-color: brown;
+}
+
 .boton {
     text-align: center;
     display: block;
