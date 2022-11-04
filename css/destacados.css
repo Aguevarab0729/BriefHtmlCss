@@ -13,13 +13,13 @@
     text-align: center;
     text-transform: uppercase;
     color: #4F4C4C;
+    margin-bottom: 4%;
 }
 
 .destacados__panel {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
 }
 
 .destacados__panel-imagen {
@@ -30,11 +30,17 @@
 }
 
 .destacados__panel-texto {
-
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px;
+    color: #000000;
+    margin: 1% auto;
 }
 
 .destacados__boton {
-    color: var(--boton-rojo);
-    border-color: var(--boton-rojo);
-    margin: 0 auto;
+    border: 1px solid #E33B3B;
+    border-radius: 5px;
+    margin: 2% auto;
 }

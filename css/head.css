@@ -27,15 +27,20 @@
     grid-column-start: 2;
     grid-column-end: -1;
     text-align: right;
-    margin-right: 5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    /* identical to box height, or 104% */
+    text-align: right;
+    color: #FFFFFF;
 }
 
 .head__enlace {
     font-size: 1.1rem;
-
     display: inline-block;
-
-    margin-right: .7rem;
-    margin-bottom: .7rem;
-    margin-left: .7rem;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }

@@ -2,14 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    color: var(--background-blanco);
+    justify-content: center;
+    color: white;
     text-align: center;
-    
-    background-color: var(--background-llamada-mobile);
-
-    padding-top: 12.25rem;
-    padding-bottom: 2.5rem;
+    background-color: transparent;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .llamada__titulo {
@@ -46,3 +44,4 @@
     letter-spacing: 0em;
     text-align: center;
 }
+

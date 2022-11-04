@@ -1,4 +1,7 @@
 .sobre-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
     padding-top: 3rem;
     padding-bottom: 3rem;
 }

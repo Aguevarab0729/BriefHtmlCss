@@ -30,7 +30,7 @@ body {
 
 .container {
     padding-right: 6%;
-    padding-left: 6%;
+    padding-left: 10%;
 }
 
 .container_all {
@@ -55,31 +55,38 @@ body {
     background-color: #690F8E;
 }
 
+.encabezado {
+    background-image: url(../img/bg-intro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100% 100%;
+    padding: 5%;
+}
 .container_all .encabezado {
-    background-color: chartreuse;
+    background-color: transparent;
     grid-column-start: 1;
     grid-column-end: 3;  /* si no sabes el numero de columnas y quieres que abarque todo se pone -1*/
 }
 
 .container_all .llamada_container {
-    background-color:#B72E2E;
+    background-color:transparent;
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
 .container_all .destacados_container {
-    background-color: yellowgreen;
+    background-color: white;
     grid-column: span 3;
 }
 
-.container_all .diferenciales_container {
-    background-color: #4F4C4C;
+.container_all .diferenciales {
+    background-color: white;
     grid-column: span 3;
 }
 
-.container_all .sobre_nosotros_container {
+.container_all .sobre_nosotros {
     background-color: #B00024;
-    grid-column: span 3;
+    grid-column: span 2;
 }
 
 .container_all .planes_container {
