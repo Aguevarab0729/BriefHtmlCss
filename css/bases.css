@@ -28,16 +28,10 @@ body {
     font-family: var(--open-sans);
 }
 
-.container {
-    padding-right: 6%;
-    padding-left: 10%;
-}
-
 .container_all {
+    display: grid;
     width: 95%;
     max-width: auto;
-    display: grid;
-    grid-gap: 2%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(8, auto);
 }
@@ -80,17 +74,17 @@ body {
 }
 
 .container_all .diferenciales {
-    background-color: white;
+    background-color: #F7F4F4;
     grid-column: span 3;
 }
 
-.container_all .sobre_nosotros {
-    background-color: #B00024;
+.container_all .sobre_nosotros_container_all {
+    background-color: white;
     grid-column: span 2;
 }
 
 .container_all .planes_container {
-    background-color: green;
+    background-color: #F7F4F4;
     grid-column: span 3;
 }
 
