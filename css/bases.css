@@ -89,7 +89,7 @@ body {
 }
 
 .container_all .contacto_container {
-    background-color: yellow;
+    background-color: white;
     grid-column: span 3;
 }
 
