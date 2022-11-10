@@ -1,3 +1,5 @@
+![logo](https://github.com/Aguevarab0729/BriefHtmlCss/blob/main/img/logo.png)
+
 # PROYECTO ON TEACH
 
 En este proyecto la idea era completar una página web ya maquetada en HTML y CSS con logo personal
@@ -12,3 +14,5 @@ En este proyecto la idea era completar una página web ya maquetada en HTML y CS
 Adicional:
 
 Readme, githubpage
+
+![prototipo](https://github.com/Aguevarab0729/BriefHtmlCss/blob/main/img/Figma_Desktop_1024px.svg)
