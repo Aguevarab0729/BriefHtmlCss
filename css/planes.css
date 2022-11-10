@@ -16,16 +16,16 @@
     text-transform: uppercase;
     color:  #4F4C4C;
     margin: 2%;
-    padding: 4%;
+    padding: 5%;
     /*margin-bottom: 1.25rem;*/
 }
 
 .planes__tarjetas {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: 0 40px;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding-bottom: 80px;
 }
 
 .tarjetas {
@@ -60,7 +60,6 @@
     font-weight: 700;
     font-size: 3rem;
     text-align: center;
-
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
 }
@@ -68,6 +67,8 @@
 .tarjetas__texto {
     font-family: 'Open Sans';
     font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
     color: #666666;
     line-height: 28px;
 }
@@ -75,13 +76,9 @@
 .tarjetas__boton {
     font-size: 1.2rem;
     font-weight: 700;
-
     width: 100%;
-
     align-self: center;
-
     padding: .75rem 2rem;
-
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -91,6 +88,7 @@
     font-style: normal;
     text-align: center;
     color: #035A76;
+    margin: 15px 30px;
 }
 
 .tarjetas--ultra {
@@ -111,8 +109,11 @@
     font-family: 'Open Sans';
     font-style: normal;
     border-color: #035A76;
-    font-size: 15px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .tarjetas__boton--ultra {

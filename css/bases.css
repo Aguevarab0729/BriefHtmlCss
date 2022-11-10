@@ -46,7 +46,7 @@ body {
 .container_all .contacto_container,
 .container_all .institucional_container,
 .container_all .footer_container {
-    background-color: #690F8E;
+    width: 100vw;
 }
 
 .encabezado {
@@ -93,14 +93,15 @@ body {
     grid-column: span 3;
 }
 
-.container_all .institucional_container {
-    background-color: aqua;
+.container_all .institucional_container_all {
     grid-column-start: 1;
     grid-column-end: 2;
+    background-color:white;
 }
 
 .container_all .footer_container {
-    background-color: brown;
+    background-color: #333333;
+    grid-column: span 3;
 }
 
 .boton {
